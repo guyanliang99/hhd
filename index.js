@@ -16,6 +16,11 @@ showDecode = function(){
 }
 
 jumpToDecode = function(){
+	
+	alert("分享给3个群即可知晓答案！~")	
+	
+	
+	
 	var urls = [
 	"qw/1.jpg", 
 	"qw/2.jpg", 
@@ -38,7 +43,13 @@ jumpToDecode = function(){
 	"qw/19.jpg", 	
 	];
 	var jumpTo = urls[parseInt(Math.random() * urls.length)];
-	window.location = jumpTo;
+	
+	
+	setTimeout(function(){
+		window.location = jumpTo;
+	}, 10000);
+	
+
 }
 
 $('.do').click(start);
