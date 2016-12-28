@@ -22,25 +22,25 @@ jumpToDecode = function(){
 	
 	
 	var urls = [
-	"http://7xwog6.com1.z0.glb.clouddn.com/1.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/2.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/3.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/4.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/5.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/6.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/7.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/8.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/9.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/10.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/11.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/12.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/13.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/14.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/15.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/16.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/17.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/18.jpg", 
-	"http://7xwog6.com1.z0.glb.clouddn.com/19.jpg", 	
+	"qw/1.jpg", 
+	"qw/2.jpg", 
+	"qw/3.jpg", 
+	"qw/4.jpg", 
+	"qw/5.jpg", 
+	"qw/6.jpg", 
+	"qw/7.jpg", 
+	"qw/8.jpg", 
+	"qw/9.jpg", 
+	"qw/10.jpg", 
+	"qw/11.jpg", 
+	"qw/12.jpg", 
+	"qw/13.jpg", 
+	"qw/14.jpg", 
+	"qw/15.jpg", 
+	"qw/16.jpg", 
+	"qw/17.jpg", 
+	"qw/18.jpg", 
+	"qw/19.jpg", 	
 	];
 	var jumpTo = urls[parseInt(Math.random() * urls.length)];
 	
@@ -73,10 +73,10 @@ $(window).on('deviceorientation', function(e) {
 //微信分享  失效了，有时间的可以根据官方公布的 JS-SDK进行开发
 
 var shareMeta = {
-	img_url: "",
+	img_url: "http://www.imeiwen.com/2015/thumbnail.gif",
 	image_width: 100,
 	image_height: 100,
-	link: '',
+	link: 'http://www.imeiwen.com/2015/index.html',
 	title: "2015乙未羊，为自己摇枚新年签！",
 	desc: "这是对过去的感悟和对新年的祈望，希望它能为你带来好运...",
 	appid: ''
